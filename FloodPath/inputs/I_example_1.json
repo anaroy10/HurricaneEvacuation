@@ -1,0 +1,48 @@
+{
+  "V": 5,
+  "E": [
+    {
+      "edge_id": 1,
+      "src_node": 1,
+      "dst_node": 2,
+      "edge_weight": 3,
+      "probability_be_flooded": 0
+    },
+    {
+      "edge_id": 2,
+      "src_node": 2,
+      "dst_node": 3,
+      "edge_weight": 2,
+      "probability_be_flooded": 0.2
+    },
+    {
+      "edge_id": 3,
+      "src_node": 3,
+      "dst_node": 4,
+      "edge_weight": 3,
+      "probability_be_flooded": 0.3
+    },
+    {
+      "edge_id": 4,
+      "src_node": 4,
+      "dst_node": 5,
+      "edge_weight": 1,
+      "probability_be_flooded": 0
+    },
+    {
+      "edge_id": 5,
+      "src_node": 2,
+      "dst_node": 4,
+      "edge_weight": 4,
+      "probability_be_flooded": 0
+    }
+  ],
+  "K": [
+    1
+  ],
+  "EC": 2,
+  "UC": 1,
+  "FF": 3,
+  "S": 1,
+  "T": 5
+}

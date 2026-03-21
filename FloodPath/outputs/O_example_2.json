@@ -1,0 +1,127 @@
+Reachable Belief States: 23
+
+=== Optimal Policy (Partial View) ===
+v=1 eq=0 [e4=U]  V=9.0000  Action=MOVE(3)
+v=1 eq=0 [e4=F]  V=15.0000  Action=MOVE(3)
+v=1 eq=0 [e4=C]  V=3.0000  Action=MOVE(3)
+v=1 eq=1 [e4=F]  V=6.0000  Action=MOVE(3)
+v=1 eq=1 [e4=C]  V=6.0000  Action=MOVE(3)
+v=2 eq=0 [e4=U]  V=100.0000  Action=MOVE(5)
+v=2 eq=0 [e4=F]  V=100.0000  Action=MOVE(5)
+v=2 eq=0 [e4=C]  V=100.0000  Action=MOVE(5)
+v=2 eq=1 [e4=F]  V=110.0000  Action=UNEQUIP
+v=2 eq=1 [e4=C]  V=110.0000  Action=UNEQUIP
+v=3 eq=0 [e4=F]  V=14.0000  Action=EQUIP
+v=3 eq=0 [e4=C]  V=2.0000  Action=MOVE(4)
+v=3 eq=1 [e4=F]  V=4.0000  Action=MOVE(4)
+v=3 eq=1 [e4=C]  V=4.0000  Action=MOVE(4)
+v=4 eq=0 [e4=F]  V=1.0000  Action=MOVE(5)
+v=4 eq=0 [e4=C]  V=1.0000  Action=MOVE(5)
+v=4 eq=1 [e4=F]  V=2.0000  Action=MOVE(5)
+v=4 eq=1 [e4=C]  V=2.0000  Action=MOVE(5)
+v=5 eq=0 [e4=U]  V=0.0000  Action=<NONE>
+v=5 eq=0 [e4=F]  V=0.0000  Action=<NONE>
+v=5 eq=0 [e4=C]  V=0.0000  Action=<NONE>
+v=5 eq=1 [e4=F]  V=0.0000  Action=<NONE>
+v=5 eq=1 [e4=C]  V=0.0000  Action=<NONE>
+
+Run simulation? Enter number of runs (or Enter to quit): 10
+
+--- Run 1/10 ---
+Real Flooded Edges: [4]
+  START at 1
+  MOVE 1->3 (cost 1.00)
+  EQUIP (cost 10.0)
+  MOVE 3->4 (cost 2.00)
+  MOVE 4->5 (cost 2.00)
+  REACHED TARGET 5
+Result: SUCCESS. Total Cost: 15.00
+
+--- Run 2/10 ---
+Real Flooded Edges: []
+  START at 1
+  MOVE 1->3 (cost 1.00)
+  MOVE 3->4 (cost 1.00)
+  MOVE 4->5 (cost 1.00)
+  REACHED TARGET 5
+Result: SUCCESS. Total Cost: 3.00
+
+--- Run 3/10 ---
+Real Flooded Edges: []
+  START at 1
+  MOVE 1->3 (cost 1.00)
+  MOVE 3->4 (cost 1.00)
+  MOVE 4->5 (cost 1.00)
+  REACHED TARGET 5
+Result: SUCCESS. Total Cost: 3.00
+
+--- Run 4/10 ---
+Real Flooded Edges: [4]
+  START at 1
+  MOVE 1->3 (cost 1.00)
+  EQUIP (cost 10.0)
+  MOVE 3->4 (cost 2.00)
+  MOVE 4->5 (cost 2.00)
+  REACHED TARGET 5
+Result: SUCCESS. Total Cost: 15.00
+
+--- Run 5/10 ---
+Real Flooded Edges: []
+  START at 1
+  MOVE 1->3 (cost 1.00)
+  MOVE 3->4 (cost 1.00)
+  MOVE 4->5 (cost 1.00)
+  REACHED TARGET 5
+Result: SUCCESS. Total Cost: 3.00
+
+--- Run 6/10 ---
+Real Flooded Edges: [4]
+  START at 1
+  MOVE 1->3 (cost 1.00)
+  EQUIP (cost 10.0)
+  MOVE 3->4 (cost 2.00)
+  MOVE 4->5 (cost 2.00)
+  REACHED TARGET 5
+Result: SUCCESS. Total Cost: 15.00
+
+--- Run 7/10 ---
+Real Flooded Edges: []
+  START at 1
+  MOVE 1->3 (cost 1.00)
+  MOVE 3->4 (cost 1.00)
+  MOVE 4->5 (cost 1.00)
+  REACHED TARGET 5
+Result: SUCCESS. Total Cost: 3.00
+
+--- Run 8/10 ---
+Real Flooded Edges: []
+  START at 1
+  MOVE 1->3 (cost 1.00)
+  MOVE 3->4 (cost 1.00)
+  MOVE 4->5 (cost 1.00)
+  REACHED TARGET 5
+Result: SUCCESS. Total Cost: 3.00
+
+--- Run 9/10 ---
+Real Flooded Edges: [4]
+  START at 1
+  MOVE 1->3 (cost 1.00)
+  EQUIP (cost 10.0)
+  MOVE 3->4 (cost 2.00)
+  MOVE 4->5 (cost 2.00)
+  REACHED TARGET 5
+Result: SUCCESS. Total Cost: 15.00
+
+--- Run 10/10 ---
+Real Flooded Edges: [4]
+  START at 1
+  MOVE 1->3 (cost 1.00)
+  EQUIP (cost 10.0)
+  MOVE 3->4 (cost 2.00)
+  MOVE 4->5 (cost 2.00)
+  REACHED TARGET 5
+Result: SUCCESS. Total Cost: 15.00
+
+Run simulation? Enter number of runs (or Enter to quit):
+
+Process finished with exit code 0
