@@ -1,24 +1,20 @@
-# HurricaneOps
+# HurricaneEvacuation
 
-A Python project suite for hurricane evacuation planning, search, simulation, and decision-making under uncertainty.
+A Python project for hurricane evacuation planning, search, simulation, and decision-making under uncertainty.
 
 Developed in collaboration with **Lior Vinman**.
 
-## Projects
+## Subprojects
 
 ### StormRunner
 Graph-based hurricane evacuation framework that includes search, simulation, and multi-agent decision making.  
-Implements algorithms such as A*, greedy heuristics, real-time search, and adversarial/cooperative agent behavior.
+Implements A*, greedy heuristics, real-time search, and adversarial/cooperative agent behavior.
 
 ### FloodPath
-Belief-state MDP solver for hurricane routing under uncertainty.  
-Models stochastic shortest-path planning and solves it using value iteration and policy extraction.
+Belief-state MDP implementation for hurricane routing under uncertainty.  
+Models a stochastic shortest-path problem and computes policies using value iteration.
 
 ## Repository Structure
 
-- `StormRוnner/` — search, simulation, and multi-agent evacuation planning
+- `StormRunner/` — search, simulation, and multi-agent evacuation planning
 - `FloodPath/` — planning under uncertainty using belief-state MDPs
-
-## Tech Stack
-
-Python, graph search, heuristics, simulation, game agents, belief-state MDPs, value iteration
