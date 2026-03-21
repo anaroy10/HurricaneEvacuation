@@ -21,4 +21,4 @@ Models a stochastic shortest-path problem and computes policies using value iter
 
 ## Tech Stack
 
-Python, graph search, heuristics, simulation, game agents, belief-state MDPs, value iteration
+Python, graph search, heuristics, simulation, game agents, belief-state MDPs, value iteration.
