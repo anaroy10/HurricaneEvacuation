@@ -1,10 +1,10 @@
 # HurricaneEvacuation
 
-A Python project for hurricane evacuation planning, search, simulation, and decision-making under uncertainty.
+A Python project suite for hurricane evacuation planning, search, simulation, and decision-making under uncertainty.
 
-Developed in collaboration with **Lior Vinman**.
+> **Note:** This repository combines two related AI course projects developed in collaboration with **Lior Vinman**.
 
-## Subprojects
+## Projects
 
 ### StormRunner
 Graph-based hurricane evacuation framework that includes search, simulation, and multi-agent decision making.  

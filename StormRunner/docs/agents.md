@@ -52,7 +52,7 @@
 
 <img src="agents/RealTimeAStarAgent.drawio.svg" alt="RTA* agent flowchart"/>
 
-## Thief-Aware A Star Agent (Bonus 1)
+## Thief-Aware A Star Agent
 * A friendly agent.
 * Makes a prediction (inner simulation) of the thief agent and takes decision based on this, 
 semi-suited (for a single thief agent).
