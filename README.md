@@ -18,3 +18,7 @@ Models a stochastic shortest-path problem and computes policies using value iter
 
 - `StormRunner/` — search, simulation, and multi-agent evacuation planning
 - `FloodPath/` — planning under uncertainty using belief-state MDPs
+
+## Tech Stack
+
+Python, graph search, heuristics, simulation, game agents, belief-state MDPs, value iteration
