@@ -1,6 +1,6 @@
 # HurricaneEvacuation
 
-A Python project suite for hurricane evacuation planning, search, simulation, and decision-making under uncertainty.
+Python project suite for evacuation planning and routing under uncertainty, combining graph search, simulation, multi-agent decision making, and belief-state MDP planning.
 
 > **Note:** This repository combines two related AI course projects developed in collaboration with **Lior Vinman**.
 
